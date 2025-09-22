@@ -1,6 +1,6 @@
 .first{
     color: white;
-    background-image: url("netx.jpg");
+    background-image: url("./images/netx.jpg");
     height: 700px;
 }
 .container{
@@ -10,7 +10,9 @@
     margin-top: 40px;
 }
 .logo{
-    height: 10px;
+    display: flex;
+    height: 6rem;
+    width: 7rem;
     margin-bottom: 50px;
     align-self: start;
 }
@@ -19,6 +21,8 @@
     flex-direction: column;
     width: 100px;
     align-self: end;
+    margin-top: -110px;
+    margin-right: 2rem;
 }
 button{
     padding: 10px;
