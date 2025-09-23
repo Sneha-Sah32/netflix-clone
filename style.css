@@ -99,6 +99,16 @@ button{
     left: 400px;
     font-size: x-large;
 }
+
+.three>h1{
+    margin-left: 6rem;
+    display: flex;
+}
+
+.three>p{
+    margin-left: -5rem;
+    display: flex;
+}
 .fifth{
     background-color: black;
     color: white;
@@ -146,21 +156,48 @@ button{
 }
 .navbar{
     background-color: black;
-    height: 400px;
+    height: 200px;
     display: flex;
     align-items: center;
 }
-li{
+
+.navbar>ul{
+
     list-style-type: none;
-    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar>li{
+    display: flex;
+    
+    /* align-items: center; */
+}
+.navbar>span{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
 }
 a{
     color: white;
     align-items: center;
+    gap: 2rem;
+    margin-left: 2rem;
+    padding: 2px;
 }
 button:hover{
     background-color: #de0606
 }
 #C6:hover{
     background-color: #464848
+}
+
+.nflix{
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    margin-left: 32rem;
+    margin-top: -7rem;
 }
