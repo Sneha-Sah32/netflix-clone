@@ -201,3 +201,62 @@ button:hover{
     margin-left: 32rem;
     margin-top: -7rem;
 }
+
+@media screen and (max-width:768px){
+
+    .first{
+        flex-direction: column;
+        
+    }
+
+    .container{
+        margin-top: 0;
+    }
+    
+    .logo{
+        margin-top: -1rem;
+        margin-left: -2rem;
+        transform: scale(0.5);
+    }
+
+    .sbm{
+       transform: scale(0.8);
+       margin-left: 2rem; 
+    }
+
+    .script{
+        flex-direction: column;
+
+    }
+    #B2{
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        transform: scale(0.8);
+        margin-top: -1rem;
+    }
+
+    .script>p{
+        transform: scale(0.8);
+        font-size: x-large;
+        font-weight: 200;
+        margin-top: -1rem;
+    }
+
+    .script>h3{
+        transform: scale(0.8);
+        font-size: x-large;
+        font-weight: 500;
+        margin-top: -1rem;
+    }
+
+    .script>input{
+        transform: scale(0.7);
+    }
+
+    .script>button{
+        transform: scale(0.7);
+
+    }
+}
