@@ -206,7 +206,6 @@ button:hover{
 
     .first{
         flex-direction: column;
-        
     }
 
     .container{
@@ -258,5 +257,38 @@ button:hover{
     .script>button{
         transform: scale(0.7);
 
+    }
+    .second{
+        flex-direction: column;
+    }
+
+    .third{
+        flex-direction: column;
+    }
+    .two{
+        font-size: large;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .two>h1{
+        margin-left: 8rem;
+        justify-content: center;
+    }
+    .two>p{
+        margin-bottom: 6rem;
+        margin-left: 8rem;
+    }
+    .phone>img{
+        transform: scale(0.7);
+    }
+    .sixth{
+        flex-direction: column;
+    }
+    #C6{
+        font-size: large;
+        transform: scale(0.7);
+        margin-left: -6rem;
+        margin-top: -3rem;
     }
 }
